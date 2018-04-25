@@ -7,6 +7,7 @@ import android.os.Build;
 
 public class CameraUtils{
     //获取设配相机id
+    //提交
     public static String getFlashCameraId(CameraManager cameraManager) {
         try {
             if (cameraManager == null) return null;
