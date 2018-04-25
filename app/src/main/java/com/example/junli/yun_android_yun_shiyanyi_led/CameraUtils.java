@@ -15,6 +15,7 @@ public class CameraUtils{
                 CameraCharacteristics cameraInfo = cameraManager.getCameraCharacteristics(id);
                 boolean hasFlash = cameraInfo.get(CameraCharacteristics.FLASH_INFO_AVAILABLE);
                 if (hasFlash) {
+                    //id
                     return id;
                 }
             }
